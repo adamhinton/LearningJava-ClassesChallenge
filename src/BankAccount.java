@@ -47,11 +47,13 @@ public class BankAccount {
 
     public void depositFunds (double dollarAmount){
         this.accountBalance += dollarAmount;
+        System.out.println("new balance: " + this.accountBalance);
     }
 
     public void withdrawFunds (double dollarAmount){
         if(dollarAmount <= this.accountBalance){
             this.accountBalance -= dollarAmount;
+            System.out.println("new balance: " + this.accountBalance);
         }
     }
 

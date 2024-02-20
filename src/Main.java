@@ -10,10 +10,7 @@ public class Main {
 //        System.out.println(bankAccount.getAccountBalance() + bankAccount.getCustomerName() + bankAccount.getEmail());
 
         bankAccount.withdrawFunds(342.20);
-        System.out.println(bankAccount.getAccountBalance());
-
 
         bankAccount.depositFunds(1000);
-        System.out.println(bankAccount.getAccountBalance());
     }
 }
