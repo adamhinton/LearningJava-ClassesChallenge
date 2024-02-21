@@ -3,6 +3,8 @@ public class Main {
 
         Account bankAccount = new Account();
 
+        System.out.println(bankAccount.getAccountBalance() + bankAccount.getAccountNumber());
+
         bankAccount.withdrawFunds(342.20);
 
         bankAccount.depositFunds(1000);
